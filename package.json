@@ -1,0 +1,25 @@
+{
+  "name": "12-express-middleware",
+  "version": "1.0.0",
+  "description": "seattle-javascript-401d24, 12-express-middleware",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test-watch": "jest --watchAll",
+    "test": "jest"
+  },
+  "author": "Ovidiu Parasca",
+  "license": "ISC",
+  "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^8.2.3",
+    "babel-register": "^6.26.0",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "jest": "^22.4.4",
+    "morgan": "^1.9.0",
+    "require-dir": "^1.0.0"
+  }
+}
